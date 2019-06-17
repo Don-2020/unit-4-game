@@ -1,0 +1,17 @@
+body{
+    background-color:skyblue;
+}
+
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+
+.infinityImage{
+	height: 60px;
+	margin: 10px;
+}
+.InfinityStone{
+	clear: both;
+}

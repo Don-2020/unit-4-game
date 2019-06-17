@@ -1,17 +1,34 @@
 body{
-    background-color:skyblue;
+	/* background-color:lightcoral; */
+	background-image: url("../images/galaxy.jpg");
+}
+.header{
+	font-family: 'Permanent Marker', cursive;
+	color:yellowgreen;
+}
+.instruction{
+	color:red;
+	float:right;
 }
 
 div{
-	background-color: white;
+	background-color: transparent;
 	margin: 10px;
-	width: 25%
+	width: 25%;
+}
+.getNum, .winorlose{
+	color: orange;
+}
+.userTotal{
+	color:purple;
 }
 
 .infinityImage{
 	height: 60px;
 	margin: 10px;
+	background-color: transparent;
 }
 .InfinityStone{
 	clear: both;
+	background-color: transparent;
 }

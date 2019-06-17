@@ -23,23 +23,29 @@ $(document).ready(function () {
         reset();
     }
     function Loser() {
-        alert("YOU LOSS!!! Now Thanos has snap away half the population!!");
+        // alert("YOU LOSS!!! Now Thanos has snap away half the population!!");
         loss++;
+        // $('#coin-image').html("<img src='assets\images\snap.gif' />");
+        $('#win-loss-tracker').html("<h7>LOSER!!!</h7>");
         $('#getLosses').text(loss);
         reset();
     }
     function reset() {
-        playerTotal = 0;
-        stone1 = Math.floor(Math.random() * 11 + 1);
-        stone2 = Math.floor(Math.random() * 11 + 1);
-        stone3 = Math.floor(Math.random() * 11 + 1);
-        stone4 = Math.floor(Math.random() * 11 + 1);
-        randNum = Math.floor(Math.random() * 119 + 12);
+    randNum=Math.floor(Math.random()*101+19);
+    
+      $('#randomNum').text(randNum);
+      num1= Math.floor(Math.random()*11+1);
+      num2= Math.floor(Math.random()*11+1);
+      num3= Math.floor(Math.random()*11+1);
+      num4= Math.floor(Math.random()*11+1);
+      playerTotal= 0;
+      $('#finalTotal').text(playerTotal);
+      
     }
     function endGame() {
         if (playerTotal === randNum) {
             Winner();
-            reset();
+            // reset();
         }
         else if (playerTotal > randNum) {
             Loser();

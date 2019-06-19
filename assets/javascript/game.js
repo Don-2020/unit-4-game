@@ -19,6 +19,7 @@ $(document).ready(function () {
     function Winner() {
         alert("You won! You beat Thanos!!!");
         win++;
+        $('#win-loss-tracker').html("<h7>WINNER!!!</h7>");
         $('#getWins').text(win);
         reset();
     }

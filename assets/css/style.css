@@ -9,6 +9,7 @@ body{
 .instruction{
 	color:red;
 	float:right;
+
 }
 
 div{
@@ -34,5 +35,7 @@ div{
 	background-color: transparent;
 }
 .endGame{
-	background-color:red;
+	margin:20px;
+	color:blue;
+	
 }
